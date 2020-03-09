@@ -1,0 +1,51 @@
+---
+title: "Untitled"
+output: github_document
+---
+library(tidyverse)
+read_csv("data/data.csv")
+
+my_data <- read_csv("data/data.csv")
+
+mean(my_data$f0)
+mean(my_data$durationV)
+mean(my_data$int)
+
+
+#split data into different columns to get means based on lex stress
+
+separate(data = my_data, col = info, into = c("word", "stress"), sep = "_")
+
+
+#make it an object
+
+my_new_data <- separate(data = my_data, col = info, into = c("word", "stress"), sep = "_")
+
+
+#calculate means for each variable
+
+#for vowel duration
+my_new_data %>%
+  group_by(stress) %>%
+  summarize(mean_durationV = mean(durationV))
+
+#for f0
+meanf0 <- my_new_data %>%
+  group_by(stress) %>%
+  summarize(mean_f0 = mean(f0))
+
+#for stress
+meanint <- my_new_data %>%
+  group_by(stress) %>%
+  summarize(mean_int = mean(int))
+
+
+install.packages("ggplot2")
+
+library(ggplot2)
+
+qplot(my_new_data$, geom="histogram")
+
+
+ggplot(data=my_new_data, aes(int)) + 
+  geom_histogram()

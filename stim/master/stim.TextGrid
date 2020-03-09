@@ -1,0 +1,98 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 12.807256235827664 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "words" 
+        xmin = 0 
+        xmax = 12.807256235827664 
+        intervals: size = 21 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.5044129588558977 
+            text = "" 
+        intervals [2]:
+            xmin = 0.5044129588558977 
+            xmax = 1.2794037331049832 
+            text = "pinto_1" 
+        intervals [3]:
+            xmin = 1.2794037331049832 
+            xmax = 1.6834587521579252 
+            text = "" 
+        intervals [4]:
+            xmin = 1.6834587521579252 
+            xmax = 2.4584495264070103 
+            text = "pinto_2" 
+        intervals [5]:
+            xmin = 2.4584495264070103 
+            xmax = 3.3725412088546496 
+            text = "" 
+        intervals [6]:
+            xmin = 3.3725412088546496 
+            xmax = 4.187275099731893 
+            text = "testo_1" 
+        intervals [7]:
+            xmin = 4.187275099731893 
+            xmax = 4.597953971556194 
+            text = "" 
+        intervals [8]:
+            xmin = 4.597953971556194 
+            xmax = 5.306706218091683 
+            text = "testo_2" 
+        intervals [9]:
+            xmin = 5.306706218091683 
+            xmax = 6.1148162561975665 
+            text = "" 
+        intervals [10]:
+            xmin = 6.1148162561975665 
+            xmax = 6.816944649961696 
+            text = "capo_1" 
+        intervals [11]:
+            xmin = 6.816944649961696 
+            xmax = 7.156109673625276 
+            text = "" 
+        intervals [12]:
+            xmin = 7.156109673625276 
+            xmax = 7.8251188035326065 
+            text = "capo_2" 
+        intervals [13]:
+            xmin = 7.8251188035326065 
+            xmax = 8.494127933439936 
+            text = "" 
+        intervals [14]:
+            xmin = 8.494127933439936 
+            xmax = 9.2889902660031 
+            text = "quemo_1" 
+        intervals [15]:
+            xmin = 9.2889902660031 
+            xmax = 9.553944376857489 
+            text = "" 
+        intervals [16]:
+            xmin = 9.553944376857489 
+            xmax = 10.176586537365301 
+            text = "quemo_2" 
+        intervals [17]:
+            xmin = 10.176586537365301 
+            xmax = 11.017815839327984 
+            text = "" 
+        intervals [18]:
+            xmin = 11.017815839327984 
+            xmax = 11.706696527549392 
+            text = "pujo_1" 
+        intervals [19]:
+            xmin = 11.706696527549392 
+            xmax = 11.97827449117514 
+            text = "" 
+        intervals [20]:
+            xmin = 11.97827449117514 
+            xmax = 12.66715517939655 
+            text = "pujo_2" 
+        intervals [21]:
+            xmin = 12.66715517939655 
+            xmax = 12.807256235827664 
+            text = "" 
